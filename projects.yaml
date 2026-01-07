@@ -7,7 +7,7 @@ username: darrenmcewan
 # Repositories to exclude from auto-discovery
 # Add repo names here that you don't want displayed
 exclude:
-  # - private-experiments
+  - project-aggregator
   # - old-project
 
 # Custom ordering - repos listed here appear first, in this order
