@@ -1,0 +1,46 @@
+# Project Hub Configuration
+# ===========================
+
+# Your GitHub username (used for auto-discovery and profile info)
+username: darrenmcewan
+
+# Repositories to exclude from auto-discovery
+# Add repo names here that you don't want displayed
+exclude:
+  # - private-experiments
+  # - old-project
+
+# Custom ordering - repos listed here appear first, in this order
+# Repos not listed will appear after these, sorted alphabetically
+order:
+  # - my-favorite-project
+  # - another-important-one
+
+# Project entries and overrides
+# Use this section to:
+#   1. Override auto-discovered project details
+#   2. Add repos that don't have GitHub Pages enabled
+#   3. Add external projects (not on your GitHub)
+projects:
+  # Example: Override an auto-discovered project
+  - repo: birthday-ics-tool
+  #   name: "My Awesome App"
+  #   description: "A custom description for this project"
+    thumbnail: "images/csv_ics.png"
+  
+  - repo: Caffeine-Calculator
+    thumbnail: "images/caffeinecalc.png"
+
+  # Example: Add a repo without GitHub Pages
+  - repo: ytdlp-ui
+    name: "UI for yt-dlp"
+    url: "https://github.com/darrenmcewan/ytdlp-ui"
+    description: "Streamlit app for easy video/audio downloading using yt-dlp"
+    thumbnail: "images/ytdlp.png"
+
+  # Example: Add an external project (not on your GitHub)
+  # - name: "Client Project"
+  #   url: "https://client-website.com"
+  #   description: "A freelance project I built"
+  #   thumbnail: "images/client.png"
+  #   repoUrl: null  # Set to null to hide the GitHub icon
