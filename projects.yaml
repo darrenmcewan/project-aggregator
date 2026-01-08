@@ -13,7 +13,7 @@ exclude:
 # Custom ordering - repos listed here appear first, in this order
 # Repos not listed will appear after these, sorted alphabetically
 order:
-  # - my-favorite-project
+  - max-focus
   # - another-important-one
 
 # Project entries and overrides
@@ -22,6 +22,8 @@ order:
 #   2. Add repos that don't have GitHub Pages enabled
 #   3. Add external projects (not on your GitHub)
 projects:
+  - repo: max-focus
+    thumbnail: "images/max-focus.png"
   # Example: Override an auto-discovered project
   - repo: birthday-ics-tool
   #   name: "My Awesome App"
